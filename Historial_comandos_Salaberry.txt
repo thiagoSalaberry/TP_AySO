@@ -1,0 +1,681 @@
+pwd
+clear
+git status
+cler
+clear
+sudo apt install git
+clear
+ls
+pwd
+clear
+git status
+clear
+ls
+mkdir facultad
+cd facultad/
+ls
+clear
+mkdir arq-y-so
+cd arq-y-so/
+clear
+git status
+git init
+clear
+git status
+ll
+rm -rf .git/
+clear
+ls
+git status
+clear
+ps
+ps -ef
+clear
+ps -ef | grep usuario2
+sudo userdel usuario2
+sudo kill -9 3701
+ls
+whoami
+clear
+id
+clear
+man userdel
+sudo userdel usuario1 
+clear
+sudo useradd -c "Progamador Java" -m -s /bin/bash usuario2
+ls
+ls home/
+ls home/usuario2/
+sudo ls home/usuario2/
+clear
+cat etc/passwd
+clear
+su usuario2
+history 
+clear
+su usuario2
+sudo passwd usuario2
+clear
+su usuario2
+clear
+cd /
+clear
+cat etc/passwd
+clear
+sudo useradd usuario1
+ls home/
+ls
+ls etc/
+clear
+ls etc/
+clear
+ls etc/passwd
+clear
+ls etc/
+c
+earlclear
+clear
+ls etc/passwd
+ll etc/passwd
+clear
+ls
+cd etc/
+ls
+clear
+ls passwd
+clear
+cd ..
+clear
+cat etc/passwd
+passwd usuario1 contra132
+clear
+sudo passwd usuario1 
+clear
+pwd
+id
+su usuario1 
+clear
+ls
+cd home/
+cd thi
+ls
+cd Thiago/
+clear
+ls
+cd facultad/
+clear
+ls
+cd arq-y-so/
+l
+ls
+clear
+mkdir clase4
+cd clase4/
+clear
+touch permisos.txt
+clear
+nano permisos.txt 
+clea
+clear
+cat permisos.txt 
+ll
+sudo chmod 740 permisos.txt 
+ll
+sudo chmod 777 permisos.txt 
+ll
+clear
+sudo chmod 760
+sudo chmod 760 permisos.txt 
+ll
+sudo chmod 764 permisos.txt 
+ls
+ll
+clear
+cat /etc/group
+clear
+sudo chown dev permisos.txt 
+sudo chown :dev permisos.txt 
+ll
+sudo chown usuario1 permisos.txt 
+ll
+sudo chown Thiago :Thiago permisos.txt 
+cat /etc/group
+clear
+sudo chown Thiago :Thiago permisos.txt 
+sudo chown Thiago:Thiago permisos.txt 
+ll
+clea
+clear
+ll
+clear
+ls
+cat etc/passwd
+clear
+sudo userdel usuario2 
+cat etc/passwd
+clear
+sudo userdel usuario1 
+cat etc/passwd
+clear
+cat etc/groups
+clear
+ls
+ls etc/
+clear
+ls etc/ | grep gr
+clear
+cat etc/group
+clear
+sudo useradd -c "Usuario de pruebas" -m -s /bin/bash
+sudo useradd -c "Usuario de pruebas" -m -s /bin/bash usuario1
+clear
+ls
+cat etc/group
+clear
+sudo groupadd dev
+clear
+cat etc/group
+clear
+cat etc/passwd | grep usuario1
+clear
+sudo usermod -G dev usuario1 
+cat etc/group | grep usuario1
+cat etc/passwd | grep usuario1
+sudo grep usuario1 etc/passwd
+sudo grep usuario1 etc/shadow
+sudo awk : | grep usuario1 etc/shadow
+sudo grep usuario1 etc/shadow | awk -F ':'
+sudo grep usuario1 etc/shadow | awk -F ':' {2}
+sudo grep usuario1 etc/shadow | awk -F ':' {1}
+sudo grep usuario1 /etc/shadow | awk -F ':' {'print $1'}
+sudo grep usuario1 /etc/shadow | awk -F ':' {'print $2'}
+sudo passwd usuario1 
+clear
+sudo grep usuario1 /etc/shadow | awk -F ':' {'print $2'}
+clear
+sudo grep usuario1 /etc/shadow | awk -F ':' {'print $2'}
+sudo useradd -m -s /bin/bash -c "Desarrollador 2" -G dev -p "$(sudo grep usuario1 /etc/shadow | awk -F ':' {'print $2'})" usuario2
+cat etc/passwd
+clear
+ls home/
+ls home/usuario2
+sudo ls home/usuario2
+clear
+cat etc/group
+clear
+su usuario2
+git status
+ls
+cd facultad/
+ls
+clear
+cd arq-y-so/
+ls
+pwd
+cd ..
+ls
+git clone git@github.com:thiagoSalaberry/tup.git
+clear
+ls
+git clone https://github.com/thiagoSalaberry/tup.git
+clear
+ls
+cd tup/
+ls
+cd 2025/
+ls
+clear
+cd primer_cuatrimestre/
+ls
+mkdir arq_y_so
+cd arq_y_so/
+clear
+ls
+whoami
+clear
+ls
+clear
+ls
+mkdir simulacro_parcial_1
+cd simulacro_parcial_1/
+clear
+ls
+puntos=("A" "B" "C" "D" "E" "F")
+for punto in "${puntos[@]}"; do mkdir "Punto$punto"; done
+ls
+clear
+cd PuntoA
+ls
+clear
+pwd
+clear
+vim main.sh
+sudo apt install vim
+clear
+vim main.sh
+clear
+ls /
+mkdir -p /PuntoB/{Grupo1, Grupo2, otro}
+sudo mkdir -p /PuntoB/{Grupo1, Grupo2, otro}
+ls /
+ls /PuntoB/
+sudo rm -rf /PuntoB
+ls /
+sudo mkdir -p /PuntoB/{Grupo1,Grupo2,otro}
+ls /
+ls /PuntoB/
+tree /
+sudo apt install tree
+tree /
+clear
+tree /PuntoB/
+claer
+clear
+man useradd
+rmdir Grupo2,/
+rmdir otro}/
+clear
+ls
+cat main.sh 
+sudo groupadd parc1_grupo1
+ls /etc/
+ls /etc/shadow
+cat /etc/shadow
+sudo cat /etc/shadow
+clear
+sudo cat /etc/group
+clear
+ls
+cat main.sh 
+vim main.sh 
+clear
+cat main.sh 
+claer
+clear
+sudo groupadd parc1_grupo2
+clear
+vim main.sh 
+clear
+sudo ll /PuntoB/
+ll /PuntoB/
+clear
+vim main.sh 
+man chown
+clear
+ll /PuntoB/
+sudo chown parc1_user1:parc1_grupo1 /PuntoB/Grupo1
+sudo cat /etc/shadow
+claer
+clear
+sudo cat /etc/group
+clear
+cat main.sh 
+sudo useradd -m -s /bin/bash -g parc1_grupo1 parc1_user1
+sudo pass parc1_user1
+sudo passwd parc1_user1 
+ls /home/
+claer
+man passwd
+sudo passwd parc1_user1 
+vim main.sh 
+sudo cat /etc/shadow
+cat main.sh 
+sudo useradd -m -s /bin/bash -g parc1_grupo2 parc1_grupo2
+sudo userdel parc1_grupo2
+sudo cat /etc/shadow
+cat main.sh 
+ls /home/
+rm -rf /home/parc1_grupo2/
+sudo rm -rf /home/parc1_grupo2/
+claer
+clear
+ls /home/
+cat main.sh 
+sudo cat /etc/group
+sudo groupadd parc1_grupo2
+sudo cat /etc/group
+sudo useradd -m -s /bin/bash -g parc1_grupo2 parc1_user2
+sudo passwd parc1_user2
+clear
+vim main.sh 
+cat main.sh 
+sudo usermod -aG parc1_grupo_todos parc1_user1
+sudo usermod -aG parc1_grupo_todos parc1_user2
+sudo usermod -aG parc1_grupo_todos parc1_user3
+cat /etc/shadow
+sudo cat /etc/shadow
+sudo cat /etc/group
+clear
+cd
+ls
+pwd
+mkdir repogit
+cd repogit/
+clear
+git clone git@github.com:thiagoSalaberry/TP_AySO.git
+ll
+ll /
+ll /~
+ll ~
+cd ~/.ssh/
+l
+ls
+clear
+ll
+ssh-keygen -t ed25519
+clear
+ls
+cat .pub
+cat *.pub
+cd
+cd repogit/
+clear
+git clone git@github.com:thiagoSalaberry/TP_AySO.git
+clear
+ls
+cd TP_AySO/
+clear
+ll
+sudo vim procedimiento_tp.sh
+ls
+sudo vim procedimiento_tp.sh
+cat /etc/os-release 
+man grep
+man grep | grep upper
+man grep
+cat /etc/os-release | grep [:upper:]
+cat /etc/os-release | grep [[:upper:]]
+man grep
+clear
+cat /etc/os-release | grep -i
+grep -i /etc/os-release 
+man grep
+cat /etc/os-release 
+cat /etc/os-release | grep -i i
+cat /etc/os-release | grep i
+cat /etc/os-release | grep I
+cat /etc/os-release | grep -i i
+vim procedimiento_tp.sh 
+clear
+cat procedimiento_tp.sh 
+clear
+ls
+grep HOME_url /etc/os-release 
+grep HOME_URL /etc/os-release 
+cat procedimiento_tp.sh 
+grep home_url /etc/os-release 
+grep -i Home_url /etc/os-release 
+grep -i Home_url /etc/os-release > datos_url.txt
+ls
+cat datos_url.txt 
+vim procedimiento_tp.sh 
+ls
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls
+cat datos_usuario.txt 
+vim procedimiento_tp.sh 
+git add .
+git commit -m "ADD: agregador 1er ejercicio sobre datos_usuario.txt"
+git config --global user.email "thiagosalaberry99@gmail.com"
+git config --global user.name "Thiago"
+git commit -m "ADD: agregador 1er ejercicio sobre datos_usuario.txt"
+git push origin main
+clear
+cat /proc/cpuinfo 
+cat /proc/cpuinfo | grep model name
+cat /proc/cpuinfo | grep "model name"
+man grep
+cat /proc/cpuinfo | grep -l "model name"
+man grep
+cat /proc/cpuinfo | grep \model name\?
+cat /proc/cpuinfo | grep /model name/?
+cat /proc/cpuinfo | grep "\model name\?"
+cat /proc/cpuinfo | grep "\model name\?1"
+cat /proc/cpuinfo | grep "\model name\1?"
+cat /proc/cpuinfo | grep "\model name\?"
+man grep
+cat /proc/cpuinfo | grep "model name"\?
+grep "model name" /proc/cpuinfo 
+grep "model name" /proc/cpuinfo | head -n 1
+grep "model name" /proc/cpuinfo | head -n 1 >> datos_usuario.txt 
+cat datos_usuario.txt 
+vim procedimiento_tp.sh 
+cat <<EOF test.txt
+Hola
+Cómo
+Estás
+EOF
+
+ls
+echo <<EOF
+Hola
+Cómo 
+Estás
+EOF
+
+ls
+echo <<EOF > test.txt
+Hola
+Cómo
+Estás
+EOF
+
+ls
+cat test.txt 
+cat <<EOF > test.txt 
+Hola
+Cómo
+Estás
+EOF
+
+cat test.txt 
+rm test.txt 
+cat README.md 
+cat <<EOF > README.md 
+\tAlumno: Thiago Salaberry
+\tDivisión: 116
+Turno: Mañana
+EOF
+
+cat README.md 
+cat <<EOF > README.md 
+# TP_AySO
+TP1 ARQ Y SO 2025
+EOF
+
+cat <<EOF >> README.md 
+    Alumno: Thiago Salaberry
+    División: 116
+Turno: Mañana
+EOF
+
+cat README.md 
+vim procedimiento_tp.sh 
+cat procedimiento_tp.sh 
+man mkdir
+ls
+tree .
+mkdir {1..5}
+ls
+rmdir {1..5}
+ls
+mkdir {carpeta1..carpeta5}
+ls
+rmdi \{carpeta1..carpeta5\}/
+ls
+rmdir \{carpeta1..carpeta5\}/
+ls
+mkdir carpeta{1..5}
+ls
+rmdir carpeta{1..5}
+ls
+mkdir materia{1..2}/uni{1..3}
+ls
+mkdir -p materia{1..2}/uni{1..3}
+ls
+tree .
+vim procedimiento_tp.sh 
+tree materia*
+vim procedimiento_tp.sh 
+echo "mkdir -p materia{1..2}/uni{1..3} > script_dir.sh
+q
+echo "mkdir -p materia{1..2}/uni{1..3}" > script_dir.sh
+ls
+cat script_dir.sh 
+ll script_dir.sh 
+chmod 775 script_dir.sh 
+ll script_dir.sh 
+vim procedimiento_tp.sh 
+tail procedimiento_tp.sh 
+rm -rf materia1 materia2
+clear
+ls
+rm script_dir.sh 
+echo "mkdir -p materia{1..2}/uni{1..3}" > script_dir.sh
+./script_dir.sh
+chmod 775 script_dir.sh 
+./script_dir.sh
+ls
+tree materia*
+rm -rf materia*
+ls
+clear
+rm script_dir.sh 
+echo "mkdir -p materia{1..2}/uni{1..3}" > script_dir.sh && chmod 775 script_dir.sh
+ls
+./script_dir.sh 
+ls
+vim procedimiento_tp.sh 
+history -a
+ls
+ll ~
+cat ~/.bash_history 
+vim procedimiento_tp.sh 
+pwd
+vim procedimiento_tp.sh 
+man cp
+echo $HOME
+ls ../../
+cp ~/.bash_history . && mv .bash_history Historial_comandos_Salaberry.txt
+ls
+ll
+cat Historial_comandos_Salaberry.txt 
+vim procedimiento_tp.sh 
+rm Historial_comandos_Salaberry.txt 
+ls
+cp ~/.bash_history ./Historial_comandos_Salaberry.txt
+ls
+cat Historial_comandos_Salaberry.txt 
+vim procedimiento_tp.sh 
+ls
+cat datos_usuario.txt 
+vim datos_usuario.txt 
+cat procedimiento_tp.sh 
+cat datos_usuario.txt 
+grep "model name" /proc/cpuinfo | head -n 1 >> datos_usuario.txt 
+cat datos_usuario.txt 
+git add .
+git commit -m "FEAT: añadiendo información de CPU"
+vim README.md 
+cat procedimiento_tp.sh 
+cat <<EOF >> README.md
+    Alumno: Thiago Salaberry
+    División: 116
+Turno: Mañana
+EOF
+
+cat README.md 
+vim procedimiento_tp.sh 
+vim README.md 
+cat README.md 
+cat procedimiento_tp.sh 
+git add README.md datos_usuario.txt 
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push origin main
+clear
+cd ~
+ls
+vm repogit/ repogit_test/
+mv repogit/ repogit_test/
+ls
+mkdir repogit
+cd repogit
+git clone git@github.com:thiagoSalaberry/TP_AySO.git
+vim procedimiento_tp1.sh
+cat ../repogit_test/TP_AySO/procedimiento_tp.sh 
+ls
+mv procedimiento_tp1.sh TP_AySO/
+ls
+cd TP_AySO/
+vim 
+ls
+vim procedimiento_tp1.sh 
+ls
+vim procedimiento_tp1.sh 
+cat ../../repogit_test/TP_AySO/procedimiento_tp.sh 
+vim procedimiento_tp1.sh 
+cat vim procedimiento_tp1.sh 
+ls
+cat $(ls)
+ls
+ll
+cat $(ll)
+echo $(cat $(ll))
+echo "mkdir -p materia{1..2}/uni{1..3}" > script_dir.sh
+ls
+rm script_dir.sh 
+ls
+vim procedimiento_tp1.sh 
+ls
+vim procedimiento_tp1.sh 
+head procedimiento_tp1.sh 
+cat procedimiento_tp1.sh 
+cat /etc/os-release 
+grep HOME_URL /etc/os-release 
+grep home_url /etc/os-release 
+grep -i Home_url /etc/os-release 
+ls
+grep -i Home_url /etc/os-release > datos_url.txt
+ls
+cat datos_url.txt 
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls
+cat datos_usuario.txt 
+git add .
+git commit -m "ADD: agregado 1er ejercicios sobre datos_usuario.txt"
+git status
+git push origin main
+grep head procedimiento_tp1.sh 
+cat datos_usuario.txt 
+cat /proc/cpuinfo 
+grep head procedimiento_tp1.sh 
+grep "model name" /proc/cpuinfo | head -n 1 >> datos_usuario.txt 
+cat datos_usuario.txt 
+cat procedimiento_tp1.sh 
+git add .
+git commit -m "FEAT: Añadiendo información de CPU"
+cat <<EOF >> README.md 
+    Alumno: Thiago Salaberry
+    División: 116
+Turno: Mañana
+EOF
+
+cat README.md
+git add README.md datos_usuario.txt 
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push origin main
+mkdir -p materia{1..2}/uni{1..3}
+ls
+tree materia*
+echo "mkdir -p materia{1..2}/uni{1..3}" > script_dir.sh && chmod 775 script_dir.sh
+ll script_dir.sh 
+ls
+tree .
+git add .
+git commit -m "ADD: Añadiendo script"
+git push origin main
+cat script_dir.sh 
+cat ~/.bash_history 
+history -a
